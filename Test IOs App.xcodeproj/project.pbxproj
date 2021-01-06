@@ -13,6 +13,9 @@
 		3254B646258719F400147F25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3254B645258719F400147F25 /* Preview Assets.xcassets */; };
 		3254B651258719F400147F25 /* Test_IOs_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3254B650258719F400147F25 /* Test_IOs_AppTests.swift */; };
 		3254B65C258719F400147F25 /* Test_IOs_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3254B65B258719F400147F25 /* Test_IOs_AppUITests.swift */; };
+		3254B6732587479400147F25 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3254B6722587479400147F25 /* BLEManager.swift */; };
+		3254B6782588B36500147F25 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3254B6772588B36500147F25 /* UserDefaultsManager.swift */; };
+		326B2E12258A09C9008BB2F0 /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326B2E11258A09C9008BB2F0 /* PeripheralManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,7 @@
 /* Begin PBXFileReference section */
 		3254B63B258719F000147F25 /* Test IOs App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test IOs App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3254B63E258719F000147F25 /* Test_IOs_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_IOs_AppApp.swift; sourceTree = "<group>"; };
-		3254B640258719F000147F25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3254B640258719F000147F25 /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 2; };
 		3254B642258719F400147F25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3254B645258719F400147F25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3254B647258719F400147F25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +48,9 @@
 		3254B657258719F400147F25 /* Test IOs AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test IOs AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3254B65B258719F400147F25 /* Test_IOs_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_IOs_AppUITests.swift; sourceTree = "<group>"; };
 		3254B65D258719F400147F25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3254B6722587479400147F25 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		3254B6772588B36500147F25 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		326B2E11258A09C9008BB2F0 /* PeripheralManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +86,9 @@
 				3254B65A258719F400147F25 /* Test IOs AppUITests */,
 				3254B63C258719F000147F25 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		3254B63C258719F000147F25 /* Products */ = {
 			isa = PBXGroup;
@@ -97,9 +105,12 @@
 			children = (
 				3254B63E258719F000147F25 /* Test_IOs_AppApp.swift */,
 				3254B640258719F000147F25 /* ContentView.swift */,
+				3254B6722587479400147F25 /* BLEManager.swift */,
+				3254B6772588B36500147F25 /* UserDefaultsManager.swift */,
 				3254B642258719F400147F25 /* Assets.xcassets */,
 				3254B647258719F400147F25 /* Info.plist */,
 				3254B644258719F400147F25 /* Preview Content */,
+				326B2E11258A09C9008BB2F0 /* PeripheralManager.swift */,
 			);
 			path = "Test IOs App";
 			sourceTree = "<group>";
@@ -259,7 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				326B2E12258A09C9008BB2F0 /* PeripheralManager.swift in Sources */,
 				3254B641258719F000147F25 /* ContentView.swift in Sources */,
+				3254B6732587479400147F25 /* BLEManager.swift in Sources */,
+				3254B6782588B36500147F25 /* UserDefaultsManager.swift in Sources */,
 				3254B63F258719F000147F25 /* Test_IOs_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
